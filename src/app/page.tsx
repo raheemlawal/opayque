@@ -6,10 +6,14 @@ export default function Home() {
         
         {/* Navbar */}
         <div className="w-full items-center justify-between font-mono lg:flex h-10">
-          <div>
-            <h1 className="text-2xl font-black ms-4">Opayque!</h1>
+          <div className="flex flex-row h-screen items-center">
+            <h1 className="text-2xl font-black ms-4 me-4">Opayque!</h1>
+            <h1 className="ms-4 me-4 text-3xl font-extralight">|</h1>
+            <button className="btn p-2 rounded me-4 font-bold  hover:underline">Create</button>
+            <button className="btn p-2 rounded me-4 font-bold  hover:underline">Explore</button>
+            
           </div>
-          <input className="shadow appearance-none border rounded w-2/6 p-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-bold" id="username" type="text" placeholder="Search.."></input>
+          <input className="shadow appearance-none border rounded w-2/6 p-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-bold" id="username" type="text" placeholder="Search..."></input>
           <div>
             <button className="btn bg-red-700 p-2 rounded me-4 font-bold">Connect Wallet</button>
           </div>
