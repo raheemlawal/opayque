@@ -33,7 +33,7 @@ export default function Home() {
         </div>
 
         {/* Main 2 */}
-        <div className="bg-white flex flex-col h-screen mt-4">
+        <div className="bg-white flex flex-col h-screen mt-4 mx-4 rounded">
 
         </div>
       </div>
