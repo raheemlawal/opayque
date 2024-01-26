@@ -19,49 +19,21 @@ export default function Home() {
         <div className="h-96 mt-4 grid grid-cols-4 gap-4">
           
           <div className="rounded shadow-lg bg-white flex flex-col justify-center items-center m-4">
-              <Image
-              src="/vacay.png"
-              width={200}
-              height={200}
-              alt="Picture of the author"
-              className="m-4"
-              />
           </div>
 
           <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 bg-white flex flex-col justify-center items-center">
-            <Image
-              src="/vacay.png"
-              width={200}
-              height={200}
-              alt="Picture of the author"
-              className="m-4"
-            />
           </div>
 
           <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 bg-white flex flex-col justify-center items-center">
-            <Image
-              src="/vacay.png"
-              width={200}
-              height={200}
-              alt="Picture of the author"
-              className="m-4"
-            />
           </div>
 
           <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 bg-white flex flex-col justify-center items-center">
-            <Image
-              src="/vacay.png"
-              width={200}
-              height={200}
-              alt="Picture of the author"
-              className="m-4"
-            />
           </div>
           
         </div>
 
         {/* Main 2 */}
-        <div className="bg-green-500 flex flex-col h-screen mt-4">
+        <div className="bg-white flex flex-col h-screen mt-4">
 
         </div>
       </div>
