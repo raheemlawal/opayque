@@ -37,8 +37,29 @@ export default function Home() {
         </div>
 
         {/* Main 2 */}
-        <div className="bg-white flex flex-col h-screen mt-4 mx-4 rounded">
+        <div className="h-96 grid grid-cols-4 gap-4">
+          
+          <div className="rounded shadow-lg bg-white flex flex-col justify-center items-center m-4">
+          </div>
 
+          <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 bg-white flex flex-col justify-center items-center">
+          </div>
+
+          <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 bg-white flex flex-col justify-center items-center">
+          </div>
+
+          <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 bg-white flex flex-col justify-center items-center">
+          </div>
+          
+        </div>
+
+        {/* Footer */}
+        <div className="w-full items-center justify-between font-mono lg:flex h-10">
+          <div className="flex flex-row h-screen items-center">
+          </div>
+          <div>
+            <h1 className="text-sm font-black ms-4 me-4">Built by Raheem.</h1>
+          </div>
         </div>
       </div>
   );
