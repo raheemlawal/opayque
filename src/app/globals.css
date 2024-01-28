@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+.selectWalletButton{
+  background-color: green !important;
+  padding: 2 !important;
+  margin-inline-end: 16px !important;
+}
+
+.selectWalletButton:hover {
+  background-color: red !important;
+}
