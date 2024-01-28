@@ -33,11 +33,12 @@ body {
 }
 
 .selectWalletButton{
-  background-color: green !important;
-  padding: 2 !important;
+  border: white !important;
+  background-color: pink !important;
+  color: rgb(34, 34, 34) !important;
   margin-inline-end: 16px !important;
 }
 
 .selectWalletButton:hover {
-  background-color: red !important;
+  background-color: white !important;
 }
