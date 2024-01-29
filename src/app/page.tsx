@@ -40,7 +40,7 @@ export default function Home() {
           {/* Navbar */}
           <div className="w-full items-center justify-between font-mono lg:flex h-10">
             <div className="flex flex-row h-screen items-center">
-              <h1 className="text-3xl font-black ms-4 me-4">Opayque!</h1>
+              <h1 className="text-3xl font-black ms-4 me-4">Opayque</h1>
               <h1 className="ms-4 me-4 text-3xl font-extralight">|</h1>
               <button className="btn p-2 rounded me-4 font-bold  hover:underline">Create</button>
               <button className="btn p-2 rounded me-4 font-bold  hover:underline">Explore</button>
