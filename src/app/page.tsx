@@ -12,6 +12,7 @@ import { WalletMultiButton } from "@demox-labs/aleo-wallet-adapter-reactui";
 import { useMemo } from "react";
 import Hero from "./hero";
 import styles from "./style";
+import Link from "next/link";
 
 // Default styles that can be overridden by your app
 require("@demox-labs/aleo-wallet-adapter-reactui/styles.css");
@@ -42,8 +43,8 @@ export default function Home() {
             <div className="flex flex-row h-screen items-center">
               <h1 className="text-3xl font-black ms-4 me-4">Opayque</h1>
               <h1 className="ms-4 me-4 text-3xl font-extralight">|</h1>
-              <button className="btn p-2 rounded me-4 font-bold  hover:underline">Create</button>
-              <button className="btn p-2 rounded me-4 font-bold  hover:underline">Explore</button>
+              <button className="btn p-2 rounded me-4 font-bold  hover:underline"><Link href="/create">Create</Link></button>
+              <button className="btn p-2 rounded me-4 font-bold  hover:underline"><Link href="/explore">Explore</Link></button>
               
             </div>
             <input className="shadow appearance-none border rounded w-2/6 p-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-bold" id="username" type="text" placeholder="Search NFT Marketplace..."></input>

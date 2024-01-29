@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./style";
 
 const Hero = () => {
@@ -23,10 +24,10 @@ const Hero = () => {
         </p>
         <div className="flex flex-row">
             <button className={`flex flex-row items-center py-[10px] px-20 ${bg_discount_gradient} text-md rounded-[4px] my-4 mr-4 font-bold`}>
-                Create
+              <Link href="/create">Create</Link>
             </button>
             <button className={`flex flex-row items-center py-[10px] px-20 ${bg_discount_gradient2} text-md rounded-[4px] my-4 text-gray-700 font-bold`}>
-                Explore
+              <Link href="/explore">Explore</Link>
             </button>
         </div>
       </div>
