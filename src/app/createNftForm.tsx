@@ -4,7 +4,7 @@ const CreateNftForm = () => {
     return (
         <form>
       <div className="space-y-12">
-        <div className="border-b border-gray-900/10 pb-12">
+        <div className="border-b border-gray-900/10">
           <h2 className="text-base font-semibold leading-7 text-white">NFT</h2>
           <p className="mt-1 text-sm leading-6 text-white">
             Insert real text here, right now this is dummy text. Apple banana corn dog elephant fish.
@@ -26,7 +26,7 @@ const CreateNftForm = () => {
               </div>
             </div>
             
-            <div className="col-span-full">
+            <div className="col-span-full pt-2">
                 <label htmlFor="email" className="block text-sm font-medium leading-6 text-white">
                 Supply
                 </label>
@@ -41,7 +41,7 @@ const CreateNftForm = () => {
               </div>
             </div>
 
-            <div className="col-span-full">
+            <div className="col-span-full pt-2">
               <label htmlFor="about" className="block text-sm font-medium leading-6 text-white">
                 Description
               </label>
@@ -56,7 +56,7 @@ const CreateNftForm = () => {
               </div>
             </div>
 
-            <div className="col-span-full">
+            <div className="col-span-full pt-2">
               <label htmlFor="cover-photo" className="block text-sm font-medium leading-6 text-white">
                 Media
               </label>
@@ -79,10 +79,10 @@ const CreateNftForm = () => {
           </div>
         </div>
 
-        <div className="border-b border-gray-900/10 pb-12">
+        <div className="border-b border-gray-900/10 pb-">
           <div className="mt-10 space-y-10">
             <fieldset>
-              <legend className="text-sm font-semibold leading-6 text-gray-900">Text</legend>
+              <legend className="text-sm font-semibold leading-6 text-white">Text</legend>
               <div className="mt-6 space-y-6">
                 <div className="relative flex gap-x-3">
                   <div className="flex h-6 items-center">
@@ -94,18 +94,16 @@ const CreateNftForm = () => {
                     />
                   </div>
                   <div className="text-sm leading-6">
-                    <label htmlFor="comments" className="font-medium text-gray-900">
-                      Text
+                    <label htmlFor="comments" className="font-medium text-white">
+                      Option A
                     </label>
-                    <p className="text-gray-500">Text.</p>
                   </div>
                 </div>
               </div>
             </fieldset>
             <fieldset>
-              <legend className="text-sm font-semibold leading-6 text-gray-900">Text</legend>
-              <p className="mt-1 text-sm leading-6 text-gray-600">Text.</p>
-              <div className="mt-6 space-y-6">
+              <legend className="text-sm font-semibold leading-6 text-white">Text</legend>
+              <div className="mt-2 space-y-6">
                 <div className="flex items-center gap-x-3">
                   <input
                     id="push-everything"
@@ -113,9 +111,10 @@ const CreateNftForm = () => {
                     type="radio"
                     className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
                   />
-                  <label htmlFor="push-everything" className="block text-sm font-medium leading-6 text-gray-900">
-                    Text
+                  <label htmlFor="push-everything" className="block text-sm font-medium leading-6 text-white">
+                    Selection A
                   </label>
+                  
                 </div>
               </div>
             </fieldset>
