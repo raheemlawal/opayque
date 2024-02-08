@@ -13,7 +13,7 @@ const CreateNftForm = () => {
           <div className="mt-10 col-span-full">
             <div className="sm:col-span-4">
                 <label htmlFor="email" className="block text-sm font-medium leading-6 text-white">
-                Name
+                Name:
                 </label>
                 <div className="mt-2">
                     <input
@@ -28,7 +28,7 @@ const CreateNftForm = () => {
             
             <div className="col-span-full pt-2">
                 <label htmlFor="email" className="block text-sm font-medium leading-6 text-white">
-                Supply
+                Supply:
                 </label>
                 <div className="mt-2">
                     <input
@@ -43,7 +43,7 @@ const CreateNftForm = () => {
 
             <div className="col-span-full pt-2">
               <label htmlFor="about" className="block text-sm font-medium leading-6 text-white">
-                Description
+                Description:
               </label>
               <div className="mt-2">
                 <textarea
@@ -58,7 +58,7 @@ const CreateNftForm = () => {
 
             <div className="col-span-full pt-2">
               <label htmlFor="cover-photo" className="block text-sm font-medium leading-6 text-white">
-                Media
+                Media:
               </label>
               <div className="mt-2 flex justify-center rounded-lg border border-dashed border-white/25 px-6 py-10">
                 <div className="text-center">
